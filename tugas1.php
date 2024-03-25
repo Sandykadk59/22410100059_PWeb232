@@ -30,11 +30,11 @@
                 <td>M01</td>
                 <td>Spidol</td>
                 <td>pcs</td>
-                <td>3000</td>
-                <td>5000</td>
+                <td>200</td>
+                <td>350</td>
                 <td>
                     <a href="EditBarang1.php" target="_blank">
-                        <input type="button" name="Update" value="Update">
+                        <input type="button" name="Edit" value="Edit">
                     </a>
                 </td>		
             </tr>
@@ -43,11 +43,11 @@
                 <td>M02</td>
                 <td>Bolpoin</td>
                 <td>pcs</td>
-                <td>1000</td>
-                <td>2000</td>
+                <td>300</td>
+                <td>450</td>
                 <td>
                     <a href="EditBarang1.php" target="_blank">
-                        <input type="button" name="Update" value="Update">
+                        <input type="button" name="Edit" value="Edit">
                     </a>
                 </td>		
             </tr>
@@ -60,7 +60,7 @@
                 <td>550</td>
                 <td>
                     <a href="EditBarang1.php" target="_blank">
-                        <input type="button" name="Update" value="Update">
+                        <input type="button" name="Edit" value="Edit">
                     </a>
                 </td>		
             </tr>
