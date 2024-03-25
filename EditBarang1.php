@@ -25,9 +25,15 @@
             <label for="jual">Jual</label><br>
             <input type="juakl" id="jual" name="jual"><br><br>
 
-            <input type="button" value="Update">
-            <input type="button" value="Delete">
-            <input type="button" value="Cancel">
+            <a href="tugas1.php" target="_blank">
+                <input type="button" value="Update">
+            </a>
+            <a href="tugas1.php" target="_blank">
+                <input type="button" value="Delete">
+            </a>
+            <a href="tugas1.php" target="_blank">
+                <input type="button" value="Cancel">
+            </a>
         </form>
     </body>
 </html>

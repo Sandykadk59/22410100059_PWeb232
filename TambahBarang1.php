@@ -26,7 +26,7 @@
             <input type="text" id="jual" name="jual"><br><br>
 
             <a href="tugas1.php" target="_blank">
-                <input type="button" value="Tambah">   
+                <input type="button" value="Save">   
             </a>        
 
             <a href="tugas1.php" target="_blank">
