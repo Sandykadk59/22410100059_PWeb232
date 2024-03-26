@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 
     <head>
-        <title> TUGAS 1 </title>
-        <link rel="stylesheet" href="Pert2/mycss.css">
+        <title> TUGAS 2 </title>
+        <link rel="stylesheet" href="mycss.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
-        <a href="TambahBarang1.php" target="_blank">  
-            <input type="button" name="Tambah" value="Tambah"> 
+        <a href="TambahBarang2.php" target="_blank">  
+            <input type="button" name="Tambah" value="Tambah">
         </a>
+
+        
 
         <br></br>
 
@@ -34,7 +37,7 @@
                 <td>200</td>
                 <td>350</td>
                 <td>
-                    <a href="EditBarang1.php" target="_blank">
+                    <a href="EditBarang2.php" target="_blank">
                         <input type="button" name="Edit" value="Edit">
                     </a>
                 </td>		
@@ -47,7 +50,7 @@
                 <td>300</td>
                 <td>450</td>
                 <td>
-                    <a href="EditBarang1.php" target="_blank">
+                    <a href="EditBarang2.php" target="_blank">
                         <input type="button" name="Edit" value="Edit">
                     </a>
                 </td>		
@@ -60,7 +63,7 @@
                 <td>400</td>
                 <td>550</td>
                 <td>
-                    <a href="EditBarang1.php" target="_blank">
+                    <a href="EditBarang2.php" target="_blank">
                         <input type="button" name="Edit" value="Edit">
                     </a>
                 </td>		
