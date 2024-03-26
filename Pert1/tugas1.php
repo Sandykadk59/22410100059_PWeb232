@@ -1,10 +1,16 @@
 <!DOCTYPE html>
+    <style>
+        table, th, td {
+            border: 0,5px solid;
+            padding: 10px;
+        }
+    </style>
+
     <head>
         <title>TES123</title>
     </head>
 
     <body>
-
         <a href="TambahBarang1.php" target="_blank">  
             <input type="button" name="Tambah" value="Tambah"> 
         </a>
