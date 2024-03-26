@@ -1,13 +1,8 @@
 <!DOCTYPE html>
-    <style>
-        table, th, td {
-            border: 0,5px solid;
-            padding: 10px;
-        }
-    </style>
 
     <head>
-        <title>TES123</title>
+        <title> TUGAS 2 </title>
+        <link rel="stylesheet" href="Pert2/Tugas2.css">
     </head>
 
     <body>
@@ -17,7 +12,7 @@
 
         <br></br>
 
-        <table border="1">
+        <table>
             <tr>
                 <th rowspan="2">Kode</th>
                 <th rowspan="2">Nama Barang</th>
