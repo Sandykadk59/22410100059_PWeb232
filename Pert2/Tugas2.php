@@ -10,7 +10,7 @@
 
         <a href="TambahBarang2.php" target="blank">  
             <button type="button" class="buttontambah">
-                <i class="fas fa-sync icon"></i>
+                <i class="fa-solid fa-plus"></i> Tambah
             </button>
         </a>
 
@@ -38,8 +38,10 @@
                 <td>200</td>
                 <td>350</td>
                 <td>
-                    <a href="EditBarang2.php" target="_blank">
-                        <input type="button" name="Edit" value="Edit">
+                    <a href="EditBarang2.php" target="_blank">  
+                        <button type="button" class="buttonEdit">
+                            <i class="fas fa-sync icon"></i> Edit
+                        </button>
                     </a>
                 </td>		
             </tr>
@@ -51,21 +53,10 @@
                 <td>300</td>
                 <td>450</td>
                 <td>
-                    <a href="EditBarang2.php" target="_blank">
-                        <input type="button" name="Edit" value="Edit">
-                    </a>
-                </td>		
-            </tr>
-
-            <tr>
-                <td>M03</td>
-                <td>VGA</td>
-                <td>pcs</td>
-                <td>400</td>
-                <td>550</td>
-                <td>
-                    <a href="EditBarang2.php" target="_blank">
-                        <input type="button" name="Edit" value="Edit">
+                    <a href="EditBarang2.php" target="_blank">  
+                        <button type="button" class="buttonEdit">
+                            <i class="fas fa-sync icon"></i> Edit
+                        </button>
                     </a>
                 </td>		
             </tr>
