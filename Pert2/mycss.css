@@ -22,11 +22,10 @@ p {
 
 table{
     border: 3px solid black;
-    border-radius: 12px;
-    padding: 5px;
+    border-radius: 5px;
+    padding: 1,5px;
     width: 100%;
     text-align: center;
-    border-collapse: none;
 }
 
 th, td{
@@ -34,7 +33,6 @@ th, td{
     padding: 10px;
     font-size: 18px;
 }
-
 input[type=text] {
     width: 500px;
     height: 40px;
@@ -89,26 +87,26 @@ input[type=button] {
     background-color: #00a2ff96;
 }
 
-input[type=button]:hover
+input[type=button]:hover {
+    background-color: #00a2ff96;
+}
 
 label {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #tbarang {
     border: 2px solid rgb(0, 0, 0);
     background-color: #e3e3e3;
     border-radius: 5px;
-    padding: 5px;
-    width: 525px;
     padding: 20px;
+    width: 525px;
 }
 
 #eBarang {
     border: 2px solid rgb(0, 0, 0);
     background-color: #e3e3e3;
     border-radius: 5px;
-    padding: 5px;
     width: 525px;
     padding: 20px;  
 }

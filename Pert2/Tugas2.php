@@ -40,7 +40,7 @@
                 <td>
                     <a href="EditBarang2.php" target="_blank">  
                         <button type="button" class="buttonEdit">
-                            <i class="fas fa-sync icon"></i> Edit
+                            <i class="fa-solid fa-pen-to-square"></i> Edit
                         </button>
                     </a>
                 </td>		
@@ -55,7 +55,7 @@
                 <td>
                     <a href="EditBarang2.php" target="_blank">  
                         <button type="button" class="buttonEdit">
-                            <i class="fas fa-sync icon"></i> Edit
+                            <i class="fa-solid fa-pen-to-square"></i> Edit
                         </button>
                     </a>
                 </td>		
@@ -70,7 +70,7 @@
                 <td>
                     <a href="EditBarang2.php" target="_blank">  
                         <button type="button" class="buttonEdit">
-                            <i class="fas fa-sync icon"></i> Edit
+                            <i class="fa-solid fa-pen-to-square"></i> Edit
                         </button>
                     </a>
                 </td>		
