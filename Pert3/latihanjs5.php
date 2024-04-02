@@ -26,7 +26,7 @@
                 console.log(start);
                 console.log(end);
 
-                for(var i=start  ; i<=end ; i++){
+                for(var i=start ; i<=end ; i++){
                     text += i + "<br>";
                 }
 
