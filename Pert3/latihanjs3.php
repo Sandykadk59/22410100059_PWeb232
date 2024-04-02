@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Latihan JS 3</title>
+    </head>
+
     <body>
         <h2> Kalkulator </h2>
         

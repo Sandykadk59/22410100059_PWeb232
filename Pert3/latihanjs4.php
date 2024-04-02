@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Latihan JS 4</title>
+    </head>
+
     <body>
         <h2> JavaScript if </h2>
         
@@ -34,24 +38,23 @@
                 document.getElementById("total").value = total;
                 abjad();
             }
-        </script>
 
-        
-        <script>
             function abjad(){
                 let nilai = document.getElementById("total").value;
                 console.log(nilai);
 
                 if(nilai>=80){
-                    document.getElementById("isi").innerHTML = "A";
+                    document.getElementById("huruf").innerHTML = "Huruf : A";
                 } else if(nilai>=70){
-                    document.getElementById("isi").innerHTML = "B";
+                    document.getElementById("huruf").innerHTML = "Huruf : B";
+                } else if(nilai>=60){
+                    document.getElementById("huruf").innerHTML = "Huruf : C";
                 } else{
-                    document.getElementById("isi").innerHTML = "C";
+                    document.getElementById("huruf").innerHTML = "Huruf : D";
                 }
             }
         </script>
         
-        <p id="isi"></p>
+        <p id="huruf"></p>
     </body>
 </html>
