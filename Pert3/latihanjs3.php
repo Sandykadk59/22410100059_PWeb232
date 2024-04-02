@@ -10,6 +10,7 @@
             Nilai 2 : 
             <input type="number" name="nilai2" id="nilai2">
             <br><br>
+            <!-- <button type="button" onclick='myfungsi1(document.getElementById("nilai1").value), (document.getElementById("nilai2").value)'> Tambah </button> -->
             <button type="button" onclick="myfungsi1()"> Tambah </button>
             <button type="button" onclick="myfungsi2()"> Kurang </button>
             <button type="button" onclick="myfungsi3()"> Kali </button>
@@ -19,10 +20,15 @@
         </form>
 
         <script>
+            function luas(p,l){
+                let L = p*l;
+                return L;
+            }
+
             // Fungsi Tambah
-            function myfungsi1(){
-                let x = document.getElementById("nilai1").value;
-                let y = document.getElementById("nilai2").value;
+            function myfungsi1(n1, n2){
+                let x = n1;
+                let y = n2;
                 console.log(x);
                 console.log(y);
                 let z = parseInt(x) + parseInt(y);
