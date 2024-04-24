@@ -6,6 +6,14 @@ function tampil(type) {
     var formLPKubus = document.getElementById('formLPKubus');
     var formLPTabung = document.getElementById('formLPTabung');
     
+    var checkboxes = document.querySelectorAll('input[name="pilihan"]:checked').length;
+
+    // Jika lebih dari satu checkbox dipilih, munculkan alert
+    if (checkboxes > 1) {
+        alert("Hanya boleh memilih satu opsi sekaligus.");
+        return;
+    }
+
     if(type === 'vbalok'){
         formVBalok.style.display = 'block';
         formVKubus.style.display = 'none';
