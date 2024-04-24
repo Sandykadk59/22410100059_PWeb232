@@ -84,30 +84,23 @@ function volume(type){
 function luaspermukaan(type){
     var hasil = document.getElementById('hasil');
 
-    if(type === lpbalok){
+    if(type === 'lpbalok'){
         var panjang = parseFloat(document.querySelector('.formLPBalok .panjang').value);
         var lebar = parseFloat(document.querySelector('.formLPBalok .lebar').value);
         var tinggi = parseFloat(document.querySelector('.formLPBalok .tinggi').value);
 
         var luaspermukaan =  2*((panjang*lebar)+(panjang*tinggi)+(lebar*tinggi));
-        hasil .innerHTML = "Luas Permukaan Balok = " + luaspermukaan;
-    } else if(type === lpkubus){
+        hasil.innerHTML = "Luas Permukaan Balok = " + luaspermukaan;
+    } else if(type === 'lpkubus'){
         var sisi = parseFloat(document.querySelector('.formLPKubus .sisi').value);
 
         var luaspermukaan =  6*sisi*sisi;
-        hasil .innerHTML = "Luas Permukaan Kubus = " + luaspermukaan;
-    } else if(type === lptabung){
+        hasil.innerHTML = "Luas Permukaan Kubus = " + luaspermukaan;
+    } else if(type === 'lptabung'){
         var jarijari = parseFloat(document.querySelector('.formLPTabung .jarijari').value);
         var tinggi = parseFloat(document.querySelector('.formLPTabung .tinggi').value);
 
         var luaspermukaan =  2*3.14*jarijari*(jarijari*tinggi);
-        hasil .innerHTML = "Luas Permukaan Tabung = " + luaspermukaan;
-    }
-}
-
-function checkIfMultipleChecked() {
-    var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
-    if (checkboxes.length > 1) {
-        alert("Anda hanya boleh memilih satu opsi.");
+        hasil.innerHTML = "Luas Permukaan Tabung = " + luaspermukaan;
     }
 }
