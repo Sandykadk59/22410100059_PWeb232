@@ -3,7 +3,7 @@
 
 </head>
 <body>
-    <h6> Data Barang </h6>
+    <h3> Data Barang </h3>
     <table border="1">
         <thead>
         <tr>

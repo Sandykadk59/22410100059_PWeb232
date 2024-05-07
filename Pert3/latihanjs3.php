@@ -30,9 +30,9 @@
             }
 
             // Fungsi Tambah
-            function myfungsi1(n1, n2){
-                let x = n1;
-                let y = n2;
+            function myfungsi1(){
+                let x = document.getElementById("nilai1").value;
+                let y = document.getElementById("nilai2").value;
                 console.log(x);
                 console.log(y);
                 let z = parseInt(x) + parseInt(y);

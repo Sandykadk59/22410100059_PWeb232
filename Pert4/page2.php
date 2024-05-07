@@ -11,7 +11,7 @@
             <tr><td> Satuan </td><td><input type="text" name="satuan" id="satuan"></td></tr>
             <tr><td> Harga Beli </td><td><input type="text" name="hargabeli" id="hargabeli"></td></tr>
             <tr><td> Jual </td><td><input type="text" name="hargajual" id="hargajual"></td></tr>
-        </table>
+        </table><br>
 
         <button id="save"> Save </button>
         <button id="cancel"> Cancel </button>
