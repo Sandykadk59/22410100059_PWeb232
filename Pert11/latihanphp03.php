@@ -21,8 +21,12 @@ foreach ($y as $isi) {
 }
 
 echo "<br> Isi object array : <br>";
-foreach ($y as $key => $isi) {
-    echo $key."<br>";
+foreach ($y as $obj => $isi) {
+    echo $obj."<br>";
 }
 
+echo count($y);
+echo "<br>";
+
+print_r($y)
 ?>
