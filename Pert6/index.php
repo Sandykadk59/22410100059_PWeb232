@@ -26,8 +26,8 @@
       <li class="nav-item">
         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Login</a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item">Login</a></li>
-          <li><a class="dropdown-item">Logout</a></li>
+          <li><a class="dropdown-item" id="login">Login</a></li>
+          <li><a class="dropdown-item" id="logout">Logout</a></li>
         </ul>
       </li>
       <li class="nav-item">
@@ -42,15 +42,15 @@
       <li class="nav-item">
         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Transaksi</a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item">Penjualan</a></li>
-          <li><a class="dropdown-item">Pembelian</a></li>
+          <li><a class="dropdown-item" id="penjualan">Penjualan</a></li>
+          <li><a class="dropdown-item" id="pembelian">Pembelian</a></li>
         </ul>
       </li>
       <li class="nav-item">
         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Laporan</a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item">Laba Rugi</a></li>
-          <li><a class="dropdown-item">Persediaan</a></li>
+          <li><a class="dropdown-item" id="labarugi">Laba Rugi</a></li>
+          <li><a class="dropdown-item" id="persediaan">Persediaan</a></li>
         </ul>
       </li>
     </ul>
@@ -65,9 +65,36 @@
 
 <script>
   $(document).ready(function(){
+    
+    // ------ Master -----
     $("#listbarang").click(function(){
       $('#isiutama').load('Master/listbarang.php');    
     });
+    
+    $("#listkaryawan").click(function(){
+      $('#isiutama').load('Master/listkaryawan.php');    
+    });
+
+    $("#listkonsumen").click(function(){
+      $('#isiutama').load('Master/listkonsumen.php');    
+    });
+
+    $("#listsupplier").click(function(){
+      $('#isiutama').load('Master/listsupplier.php');    
+    });
+    
+    // ------ Transaksi -----
+    $("#penjualan").click(function(){
+      $('#isiutama').load('Transaksi/penjualandata.php');    
+    });
+
+    $("#pembelian").click(function(){
+      $('#isiutama').load('Transaksi/pembeliandata.php');    
+    });
+
+    // ----- Login -----
+
+    // ----- Laporan -----
   });
 </script>
 

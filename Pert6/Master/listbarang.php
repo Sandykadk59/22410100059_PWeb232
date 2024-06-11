@@ -10,7 +10,7 @@
 <body>
 
 <div class="container mt-3">
-  <h2>Small Table</h2>
+  <h2>Tabel Barang</h2>
   <p>The .table-sm class makes the table smaller by cutting cell padding in half:</p>
   <table class="table table-bordered table-sm">
     <thead>
